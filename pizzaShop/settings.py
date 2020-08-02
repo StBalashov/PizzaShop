@@ -24,7 +24,7 @@ SECRET_KEY = '0m#h%bnyh+qihzxb3p4@ndnqx+4kp8var$kh@y=1xzxcuehgly'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['cool-pizza-shop.herokuapp.com']
+ALLOWED_HOSTS = ['cool-pizza-shop.herokuapp.com', 'localhost']
 
 # Application definition
 
@@ -117,6 +117,8 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static_root')
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
 
