@@ -1,0 +1,162 @@
+body {
+    background-color: hsl(0, 0%, 98%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: hsl(0, 0%, 30%);
+}
+
+.box-element {
+    box-shadow: hsl(0, 0%, 80%) 0 0 16px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.thumbnail {
+    width: 100%;
+    height: 200px;
+    -webkit-box-shadow: -1px -3px 5px -2px rgba(214, 214, 214, 1);
+    -moz-box-shadow: -1px -3px 5px -2px rgba(214, 214, 214, 1);
+    box-shadow: -1px -3px 5px -2px rgba(214, 214, 214, 1);
+}
+
+.product {
+    border-radius: 0 0 4px 4px;
+    margin-bottom: 20px;
+}
+
+/*.bg-dark{*/
+/*	background-color: #4f868c!important;*/
+/*}*/
+
+#cart-icon {
+    width: 25px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#cart-total {
+    display: block;
+    text-align: center;
+    color: #fff;
+    background-color: red;
+    width: 20px;
+    height: 25px;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+.col-lg-4, .col-lg-6, .col-lg-8, .col-lg-12 {
+    margin-top: 10px;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.row-image {
+    width: 100px;
+}
+
+.form-field {
+    width: 250px;
+    display: inline-block;
+    padding: 5px;
+}
+
+.cart-row {
+    display: flex;
+    align-items: flex-stretch;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ececec;
+
+}
+
+.quantity {
+    display: inline-block;
+    font-weight: 700;
+    padding-right: 10px;
+
+
+}
+
+.chg-quantity:hover {
+    opacity: .6;
+}
+
+
+.hidden {
+    display: none !important;
+}
+
+.search {
+    margin-right: 10px;
+}
+
+.price {
+    display: inline-block;
+    float: right;
+}
+
+.login-form {
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ingredients {
+    margin-bottom: 10px;
+    min-height: 100px;
+}
+
+.user_card {
+    width: 350px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: #343a40;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+
+}
+
+.form_container {
+    margin-top: 20px;
+}
+
+#form-title {
+    color: #fff;
+
+}
+
+.login_btn {
+    width: 100%;
+    background: #ffc107 !important;
+    color: black !important;
+}
+
+.payment-btn {
+    width: 100%;
+}
+
+.payment-btn:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+
+.login_btn:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+
+.login_container {
+    padding: 0 2rem;
+}
