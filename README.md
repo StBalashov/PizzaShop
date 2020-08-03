@@ -1,10 +1,6 @@
 # PizzaShop
 Demo project of an ecommerce website on Django.
 
-# Requirements:
-* django 3.0.8
-* Pillow 7.2.0 (in case you want to change pizza thumbnails)
-
 # Build:
 Recommended to install venv with django and pillow.
 1. In the project directory:
