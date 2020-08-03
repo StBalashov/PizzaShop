@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 
 import os
 
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -25,6 +26,7 @@ SECRET_KEY = '0m#h%bnyh+qihzxb3p4@ndnqx+4kp8var$kh@y=1xzxcuehgly'
 DEBUG = True
 
 ALLOWED_HOSTS = ['cool-pizza-shop.herokuapp.com', 'localhost']
+
 
 # Application definition
 
@@ -46,6 +48,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware'
 ]
 
 ROOT_URLCONF = 'pizzaShop.urls'
@@ -123,4 +126,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
 
 MEDIA_URL = '/images/'
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
