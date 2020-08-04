@@ -25,6 +25,7 @@ python manage.py runserver
 # Features
 * You can start adding your pizzas to cart immediately, your order will be saved in your cookies, then after completing it, it will also be saved.
 * You can also sign up and then log in at any time, then your orders and cart will be attached to your account.
+* You can switch between currencies using currency switch at the navbar.
 
 
 
