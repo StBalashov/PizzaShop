@@ -1,5 +1,6 @@
 # PizzaShop
-Demo project of an ecommerce website on Django.
+Demo project of an ecommerce website on Django.  
+http://cool-pizza-shop.herokuapp.com/
 
 # Build:
 Recommended to install venv with django and pillow.
@@ -26,6 +27,7 @@ python manage.py runserver
 * You can start adding your pizzas to cart immediately, your order will be saved in your cookies, then after completing it, it will also be saved.
 * You can also sign up and then log in at any time, then your orders and cart will be attached to your account.
 * You can switch between currencies using currency switch at the navbar.
+
 
 
 
